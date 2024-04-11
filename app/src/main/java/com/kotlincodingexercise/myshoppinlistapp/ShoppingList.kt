@@ -210,7 +210,7 @@ fun ShoppingListItem(
             ),
     ) {
         Text(text = item.name, modifier = Modifier.padding(8.dp))
-        Text(text = "Qty: ${item.quantity}", modifier = Modifier.padding(8.dp))
+        Text(text = "Quantity: ${item.quantity}", modifier = Modifier.padding(8.dp))
         Row(modifier = Modifier
             .padding(8.dp)
             .weight(1f), //Use weight to push icons to the end
